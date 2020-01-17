@@ -1,11 +1,24 @@
 document.addEventListener('DOMContentLoaded', () => {
-	isLoggedIn().then(rj => rj.logged == 'false' ? logIn() : u = new User(rj.username))
+	isLoggedIn()
+	// updateUser({username: 'Jason', id: 1})
 })
 
 const getUser = () => {
 	fetch('http://localhost:3000/users/2')
 		.then(r => r.json())
 		.then(rj => displayUserInfo(rj))
+}
+
+const updateUser = (newInfo) => {
+	fetch('http://localhost:3000/users/1', {
+		method: 'PATCH',
+		headers: {
+			'Content-Type': 'application/json'
+		},
+		body: JSON.stringify(newInfo)
+	})
+		.then(r => r.json())
+		.then(rj => console.log(rj))
 }
 
 const displayUserInfo = (info) => {
@@ -20,25 +33,36 @@ const displayUserInfo = (info) => {
 	// console.log(info)
 }
 
-const logIn = () => {
+const showLogIn = () => {
 	const logInDiv = document.getElementById('login')
 	logInDiv.classList.remove('hidden')
 }
 
 const isLoggedIn = () => {
-	return fetch('http://localhost:3000/session')
+	fetch('http://localhost:3000/session')
 		.then(r => r.json())
+		.then(rj => {
+			if(rj.logged == 'false') {
+				showLogIn()
+			} else {
+				console.log(rj)
+				createUser(rj)
+			}
+		})
+}
+
+const createUser = (info) => {
+	const user = new User(info.username, info.goals)
 }
 
 class User {
-	constructor(username) {
+	constructor(username, goals) {
 		this.username = username
+		this.goals = goals
 	}
 
-}
+	showInfo() {
 
-class Session {
-	constructor(user) {
-		this.user = user
 	}
+
 }
