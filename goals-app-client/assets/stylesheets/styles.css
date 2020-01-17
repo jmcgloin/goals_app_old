@@ -1,0 +1,17 @@
+body {
+	height: 98vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header, footer, main {
+	flex-shrink: 0;
+}
+
+main {
+	flex-grow: 1;
+}
+
+.hidden {
+	display: none;
+}
