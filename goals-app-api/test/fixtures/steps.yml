@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  step_name: MyString
+  goal_id: 1
+  minutes_to_complete: 1
+  completed: 
+  desciption: MyString
+
+two:
+  step_name: MyString
+  goal_id: 1
+  minutes_to_complete: 1
+  completed: 
+  desciption: MyString
