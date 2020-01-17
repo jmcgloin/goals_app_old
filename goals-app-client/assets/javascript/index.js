@@ -2,29 +2,36 @@
 TODO:
 
 x1. on load, check if there is an active session (only work with no active session for now)
-2. after verifying no session, show the register/login screen (register done, work with login)
+X2. after verifying no session, show the register/login screen
+(register done, work with login)
 create login form
-3. show login form
+X3. show login form
 4. upon completion of form, post to session#create to auth user (check that exists for now)
 
 */
 
 document.addEventListener('DOMContentLoaded', () => {
+	let user = undefined
 	document.getElementById('register-form').addEventListener('submit', registerUser)
+	document.getElementById('login-form').addEventListener('submit', logInUser)
+	document.querySelectorAll(["[name=existing-or-new]"])
+		.forEach(sel => sel.addEventListener('click', showForm))
 	isLoggedIn()
 })
 
 class User {
-	constructor(username, email) {
-		this.username = username
-		this.email = email
-		this.password = null
+	constructor(info) {
+		this.username = info.username
+		this.email = info.email
+		this.password = info.password
+		this.goals = info.goals || undefined
 	}
-
 	showInfo() {
-
 	}
-
+	static createUser(info, e = undefined) {
+		if(e) clearFields(e.target);
+		return new User(info)
+	}
 }
 
 const isLoggedIn = () => {
@@ -32,23 +39,20 @@ const isLoggedIn = () => {
 		.then(r => r.json())
 		.then(rj => {
 			if(rj.logged == 'false') {
-				showLogInRegister()
+				showOnly([(document.getElementById('login-register')).id])
 			} else {
 				//stuff to do if logged in
 			}
 		})
 }
 
-const showLogInRegister = () => {
-	const logInRegisterDiv = document.getElementById('login-register')
-	logInRegisterDiv.classList.remove('hidden')
-}
-
 const registerUser = (e) => {
 	e.preventDefault()
-	const user = new User(e.target[name='username'].value, e.target[name='email'].value)
-	user.password = e.target[name='password'].value
-	clearFields(e.target.getElementsByTagName('input'))
+	const user = User.createUser({
+		username: e.target[name='reg-username'].value,
+		email: e.target[name='reg-email'].value,
+		password: e.target[name='reg-password'].value,
+	})
 	fetch('http://localhost:3000/users', {
 		method: 'POST',
 		headers: {
@@ -60,22 +64,14 @@ const registerUser = (e) => {
 		.then(rj => console.log(rj))
 }
 
-const displayUserInfo = (info) => {
-	if(info.error) {
-		console.log('Problem!')
-		return
-	}
-	const infoDiv = document.getElementById('user-info')
-	const userDiv = document.getElementById('user-home')
-	userDiv.classList.remove('hidden')
-	infoDiv.innerHTML = `<h1>Welcome, ${info.username}</h1>`
-	// console.log(info)
-}
-
-
-
-const createUser = (info) => {
-	const user = new User(info.username, info.goals)
+const logInUser = (e) => {
+	e.preventDefault()
+	const user = new User({
+		username: e.target[name='reg-username'].value,
+		email: e.target[name='reg-email'].value,
+		password: e.target[name='reg-password'].value,
+	})
+	clearFields(e.target.getElementsByTagName('input'))
 }
 
 const updateUser = (newInfo) => {
@@ -90,6 +86,22 @@ const updateUser = (newInfo) => {
 		.then(rj => console.log(rj))
 }
 
-const clearFields = (collection) => {
-	Array.from(collection).forEach(input => input.value = input.type != 'submit' ? '' : 'Register')
+
+//helpers
+const clearFields = (target) => {
+	Array.from(target.getElementsByTagName('input'))
+		.forEach(input => input.value = input.type != 'submit' ? '' : 'Register')
+}
+
+const showForm = (e) => {
+	const form = document.getElementById(`${e.target.id}-form`)
+	const parentId = form.parentElement.id
+	showOnly([form.id, parentId])
+}
+
+const showOnly = (elementsIds) => {
+	Array.from(document.getElementsByClassName('page-action'))
+		.forEach(el => {
+			elementsIds.includes(el.id) ? el.classList.remove('hidden') : el.classList.add('hidden')
+		})
 }

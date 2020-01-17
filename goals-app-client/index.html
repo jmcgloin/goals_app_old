@@ -8,15 +8,19 @@
 	<header>nav will go here</header>
 	<main>
 		<div class="page-action hidden" id="login-register">
-			Login/register
-			<div id="register">
-				<form id="register-form">
-					<label for="username">Username: </label><input type="text" name="username" id="username" required autocomplete="off">
-					<label for="email">Email: </label><input type="text" name="email" id="email" required autocomplete="off">
-					<label for="password">Password: </label><input type="password" name="password" id="password" required autocomplete="off">
-					<input type="submit" value='Register'>
-				</form>
-			</div>
+			<label for="login">Welcome back!</label><input type="radio" name="existing-or-new" id="login">
+			<label for="register">I'm new here</label><input type="radio" name="existing-or-new" id="register">
+			<form id="register-form" class="hidden page-action">
+				<label for="reg-username">Username: </label><input type="text" name="reg-username" id="reg-username" required autocomplete="off">
+				<label for="reg-email">Email: </label><input type="text" name="reg-email" id="reg-email" required autocomplete="off">
+				<label for="reg-password">Password: </label><input type="password" name="reg-password" id="reg-password" required autocomplete="off">
+				<input type="submit" value='Register'>
+			</form>
+			<form id="login-form" class="hidden page-action">
+				<label for="log-username">Username: </label><input type="text" name="log-username" id="log-username" required autocomplete="off">
+				<label for="log-password">Password: </label><input type="password" name="log-password" id="log-password" required autocomplete="off">
+				<input type="submit" value='Log In'>
+			</form>
 		</div>
 		<div class="page-action hidden" id="user-home">
 			<div id="user-info">
