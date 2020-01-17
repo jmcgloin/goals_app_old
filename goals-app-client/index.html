@@ -7,8 +7,16 @@
 <body>
 	<header>nav will go here</header>
 	<main>
-		<div class="page-action hidden" id="login">
-			Login
+		<div class="page-action hidden" id="login-register">
+			Login/register
+			<div id="register">
+				<form id="register-form">
+					<label for="username">Username: </label><input type="text" name="username" id="username" required autocomplete="off">
+					<label for="email">Email: </label><input type="text" name="email" id="email" required autocomplete="off">
+					<label for="password">Password: </label><input type="password" name="password" id="password" required autocomplete="off">
+					<input type="submit" value='Register'>
+				</form>
+			</div>
 		</div>
 		<div class="page-action hidden" id="user-home">
 			<div id="user-info">
