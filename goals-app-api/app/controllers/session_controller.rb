@@ -1,6 +1,6 @@
 class SessionController < ApplicationController
 	def show
-		binding.pry()
+		# binding.pry()
 		# session[:username] = 'Jason'
 		# reset_session
 		if session[:username]
@@ -15,7 +15,7 @@ class SessionController < ApplicationController
 		if user
 			session[:username] = user.username
 			session[:id] = user.id
-			render json: user, status: 200
+			render json: user, include: :goals, status: 200
 		else
 			render json: {error: 'user dne'}, status: 450
 		end
@@ -23,7 +23,11 @@ class SessionController < ApplicationController
 
 	def destroy
 		reset_session
-		render json: {logged: 'false'}, status: 200
+		if !session[:username]
+			render json: {logout: 'success'}, status: 200
+		else
+			render json: {logout: 'failed'}, status: 495
+		end
 	end
 
 	def session_params
