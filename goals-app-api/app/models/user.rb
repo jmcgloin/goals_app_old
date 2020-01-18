@@ -4,4 +4,6 @@ class User < ApplicationRecord
 	has_many :steps, through: :goals
 
 	validates :username, :email, presence: true #finish the bcrypt stuff
+
+	has_secure_password
 end

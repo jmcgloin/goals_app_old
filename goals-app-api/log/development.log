@@ -1526,3 +1526,1550 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 1590)
 
 
+Started GET "/session" for ::1 at 2020-01-17 11:18:14 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 119)
+
+
+Started GET "/session" for ::1 at 2020-01-17 11:19:31 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 94)
+
+
+Started POST "/login" for ::1 at 2020-01-17 11:19:36 -0500
+Processing by SessionController#create as */*
+  Parameters: {"username"=>"Jason", "password"=>"[FILTERED]", "session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+Started POST "/login" for ::1 at 2020-01-17 11:19:38 -0500
+Processing by SessionController#create as */*
+  Parameters: {"username"=>"Jason", "password"=>"[FILTERED]", "session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+Started POST "/login" for ::1 at 2020-01-17 11:19:43 -0500
+Processing by SessionController#create as */*
+  Parameters: {"username"=>"Jason", "password"=>"[FILTERED]", "session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+Started POST "/login" for ::1 at 2020-01-17 11:19:44 -0500
+Processing by SessionController#create as */*
+  Parameters: {"username"=>"Jason", "password"=>"[FILTERED]", "session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+Started GET "/session" for ::1 at 2020-01-17 11:20:47 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 93)
+
+
+Started POST "/login" for ::1 at 2020-01-17 11:20:54 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+Completed 204 No Content in 3470ms (ActiveRecord: 0.0ms | Allocations: 5517)
+
+
+Completed 204 No Content in 74024ms (ActiveRecord: 0.0ms | Allocations: 17117)
+
+
+Completed 204 No Content in 79713ms (ActiveRecord: 0.0ms | Allocations: 25449)
+
+
+Completed 204 No Content in 84891ms (ActiveRecord: 0.0ms | Allocations: 33782)
+
+
+Completed 204 No Content in 87398ms (ActiveRecord: 0.0ms | Allocations: 53364)
+
+
+Started GET "/session" for ::1 at 2020-01-17 11:21:07 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 93)
+
+
+Started POST "/login" for ::1 at 2020-01-17 11:21:12 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+Completed 204 No Content in 101947ms (ActiveRecord: 0.0ms | Allocations: 7430)
+
+
+Started POST "/login" for ::1 at 2020-01-17 11:23:37 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+Completed 204 No Content in 3458ms (ActiveRecord: 0.0ms | Allocations: 5500)
+
+
+Started GET "/session" for ::1 at 2020-01-17 11:23:43 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 93)
+
+
+Started POST "/login" for ::1 at 2020-01-17 11:23:48 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"jason", "password"=>"[FILTERED]"}}
+Completed 204 No Content in 5773ms (ActiveRecord: 0.0ms | Allocations: 5506)
+
+
+Started GET "/session" for ::1 at 2020-01-17 11:24:15 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 93)
+
+
+Started POST "/login" for ::1 at 2020-01-17 11:24:20 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"jason", "password"=>"[FILTERED]"}}
+Started GET "/session" for ::1 at 2020-01-17 11:31:07 -0500
+Completed 204 No Content in 425263ms (ActiveRecord: 0.0ms | Allocations: 9254)
+
+
+  
+SyntaxError (/home/jason/learning-dev/learn-co/javascript/goals-app/goals-app-api/app/controllers/session_controller.rb:14: syntax error, unexpected ')'
+...user = User.find_by(username: )
+...                              ^):
+  
+app/controllers/session_controller.rb:14: syntax error, unexpected ')'
+app/controllers/session_controller.rb:14: syntax error, unexpected ')'
+Started GET "/session" for ::1 at 2020-01-17 11:32:05 -0500
+  
+SyntaxError (/home/jason/learning-dev/learn-co/javascript/goals-app/goals-app-api/app/controllers/session_controller.rb:14: syntax error, unexpected ')'
+...user = User.find_by(username: )
+...                              ^):
+  
+app/controllers/session_controller.rb:14: syntax error, unexpected ')'
+app/controllers/session_controller.rb:14: syntax error, unexpected ')'
+Started GET "/session" for ::1 at 2020-01-17 11:32:24 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 119)
+
+
+Started GET "/session" for ::1 at 2020-01-17 11:34:19 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 94)
+
+
+Started GET "/session" for ::1 at 2020-01-17 11:51:05 -0500
+  
+SyntaxError (/home/jason/learning-dev/learn-co/javascript/goals-app/goals-app-api/app/controllers/session_controller.rb:14: syntax error, unexpected ')'
+...user = User.find_by(username: )
+...                              ^):
+  
+app/controllers/session_controller.rb:14: syntax error, unexpected ')'
+app/controllers/session_controller.rb:14: syntax error, unexpected ')'
+Started GET "/session" for ::1 at 2020-01-17 11:52:01 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 119)
+
+
+Started POST "/login" for ::1 at 2020-01-17 11:52:06 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"jsldjf", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "jsldjf"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:14:in `create'
+Completed 500 Internal Server Error in 9462ms (ActiveRecord: 6.9ms | Allocations: 10928)
+
+
+  
+NoMethodError (undefined method `username' for nil:NilClass):
+  
+app/controllers/session_controller.rb:15:in `create'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/session" for ::1 at 2020-01-17 11:53:22 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 119)
+
+
+Started POST "/login" for ::1 at 2020-01-17 11:53:28 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:14:in `create'
+Completed 204 No Content in 6630ms (ActiveRecord: 7.8ms | Allocations: 11563)
+
+
+Started GET "/session" for ::1 at 2020-01-17 12:21:57 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 120)
+
+
+Started POST "/users" for ::1 at 2020-01-17 12:22:09 -0500
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"Stella", "email"=>"s.com", "password"=>"[FILTERED]", "user"=>{"username"=>"Stella", "email"=>"s.com"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:7:in `create'
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Stella"], ["email", "s.com"], ["created_at", "2020-01-17 17:22:09.608408"], ["updated_at", "2020-01-17 17:22:09.608408"]]
+  ↳ app/controllers/users_controller.rb:7:in `create'
+  [1m[35m (15.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:7:in `create'
+Completed 200 OK in 36ms (Views: 0.6ms | ActiveRecord: 16.2ms | Allocations: 5793)
+
+
+Started POST "/login" for ::1 at 2020-01-17 12:22:21 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Stella", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Stella"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:14:in `create'
+Completed 200 OK in 577149ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 8991)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:39:49 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 120)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:43:05 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 119)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:44:18 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 94)
+
+
+Started POST "/login" for ::1 at 2020-01-17 13:44:24 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:12:in `create'
+Completed 200 OK in 32ms (Views: 0.4ms | ActiveRecord: 10.9ms | Allocations: 7567)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:45:22 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 94)
+
+
+Started POST "/login" for ::1 at 2020-01-17 13:45:26 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:12:in `create'
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.8ms | Allocations: 768)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:50:35 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 94)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:50:36 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 94)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:51:49 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 94)
+
+
+Started POST "/login" for ::1 at 2020-01-17 13:51:53 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:12:in `create'
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.7ms | Allocations: 769)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:52:53 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 94)
+
+
+Started POST "/login" for ::1 at 2020-01-17 13:52:57 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:12:in `create'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.8ms | Allocations: 774)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:53:00 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 94)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:54:25 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 94)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:54:52 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 94)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:55:29 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 20070ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 9534)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:57:47 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:57:53 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 93)
+
+
+Started POST "/login" for ::1 at 2020-01-17 13:58:00 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:13:in `create'
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 4.9ms | Allocations: 5862)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:58:02 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 93)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:58:03 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 93)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:58:03 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 93)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:58:04 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 93)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:59:21 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 120)
+
+
+Started POST "/login" for ::1 at 2020-01-17 13:59:28 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:13:in `create'
+Completed 200 OK in 19727ms (Views: 0.4ms | ActiveRecord: 7.0ms | Allocations: 15993)
+
+
+Started GET "/session" for ::1 at 2020-01-17 13:59:53 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 93)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:00:02 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 6103ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 8019)
+
+
+Started POST "/login" for ::1 at 2020-01-17 14:00:19 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:13:in `create'
+Completed 200 OK in 7520ms (Views: 0.4ms | ActiveRecord: 8.7ms | Allocations: 14708)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:00:32 -0500
+Processing by SessionController#show as */*
+Started GET "/session" for ::1 at 2020-01-17 14:04:44 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 767083ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 11381)
+
+
+Completed 200 OK in 1021065ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 22765)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:20:07 -0500
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as */*
+Completed 200 OK in 10499ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 18128)
+
+
+Started POST "/login" for ::1 at 2020-01-17 14:20:24 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:13:in `create'
+Completed 200 OK in 17035ms (Views: 0.4ms | ActiveRecord: 7.0ms | Allocations: 16577)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:20:44 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 26541ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 9633)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:22:26 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as */*
+Completed 200 OK in 3580ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 16516)
+
+
+Started POST "/login" for ::1 at 2020-01-17 14:22:36 -0500
+Processing by SessionController#create as */*
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:13:in `create'
+Completed 200 OK in 11265ms (Views: 0.5ms | ActiveRecord: 9.6ms | Allocations: 16617)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:22:50 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 4384ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 8125)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:36:10 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as */*
+Completed 200 OK in 4751ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 16540)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:42:21 -0500
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as */*
+Started GET "/session" for ::1 at 2020-01-17 14:42:24 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 3602ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6668)
+
+
+Completed 200 OK in 8957ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 25926)
+
+
+Started POST "/login" for ::1 at 2020-01-17 14:42:36 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:13:in `create'
+Completed 200 OK in 13302ms (Views: 0.4ms | ActiveRecord: 4.7ms | Allocations: 16915)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:42:54 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 6931ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 8053)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:44:28 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 8933ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 8006)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:45:12 -0500
+Processing by SessionController#show as */*
+Started GET "/session" for ::1 at 2020-01-17 14:45:13 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 2158ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6417)
+
+
+Completed 200 OK in 3962ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 13741)
+
+
+Started POST "/login" for ::1 at 2020-01-17 14:45:23 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:13:in `create'
+Completed 200 OK in 3724ms (Views: 0.4ms | ActiveRecord: 0.5ms | Allocations: 7454)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:45:29 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 4298ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7995)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:46:47 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 2238ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 6415)
+
+
+Started POST "/login" for ::1 at 2020-01-17 14:46:54 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:13:in `create'
+Completed 200 OK in 3457ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 7457)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:47:00 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 4970ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7979)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:49:38 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as */*
+Completed 200 OK in 1761ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 16575)
+
+
+Started POST "/login" for ::1 at 2020-01-17 14:49:44 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:13:in `create'
+Completed 200 OK in 3438ms (Views: 0.4ms | ActiveRecord: 5.2ms | Allocations: 13724)
+
+
+Started GET "/session" for ::1 at 2020-01-17 14:49:49 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 12617ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 83349)
+
+
+Started POST "/login" for ::1 at 2020-01-17 14:50:11 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:13:in `create'
+Completed 200 OK in 3831ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 7476)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:19:04 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as */*
+Completed 200 OK in 3604ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 16778)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:20:29 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 2485ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 6595)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:21:02 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 2067ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 6603)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:22:11 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 2548ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6672)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:22:45 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 2082ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6591)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:23:12 -0500
+Processing by SessionController#show as */*
+Started GET "/session" for ::1 at 2020-01-17 16:23:13 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 3693ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6606)
+
+
+Completed 200 OK in 5578ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 16203)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:24:01 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 2059ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 6590)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:26:33 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1438ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6589)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:29:16 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 3230ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 6592)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:31:57 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1682ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 6743)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:32:03 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1850ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6616)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:35:09 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1861ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 6610)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:37:39 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 2329ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6606)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:40:47 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as */*
+Completed 200 OK in 1224ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 16818)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:41:06 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 2016ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 6611)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:41:18 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as */*
+Completed 200 OK in 1254ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 16819)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:42:04 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 3300ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6622)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:42:39 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as */*
+Completed 200 OK in 2299ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 16816)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:43:35 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as */*
+Completed 200 OK in 2029ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 16817)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:44:58 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 10783ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 9703)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:47:06 -0500
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as */*
+Completed 200 OK in 6382ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 18464)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:48:15 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 2527ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 6613)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:48:34 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 36746ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 8869)
+
+
+Started GET "/" for ::1 at 2020-01-17 16:50:18 -0500
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jason/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jason/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.9ms | Allocations: 315)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 1595)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-01-17 16:50:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2020-01-17 16:50:22 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/session" for ::1 at 2020-01-17 16:50:31 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 440)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:55:07 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 385)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:55:21 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 365)
+
+
+Started GET "/session" for ::1 at 2020-01-17 16:55:55 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as */*
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 456)
+
+
+Started POST "/login" for ::1 at 2020-01-17 16:56:14 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 131)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.2.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:40:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/session" for ::1 at 2020-01-17 16:58:19 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 320)
+
+
+Started POST "/login" for ::1 at 2020-01-17 16:58:25 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 119)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.2.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:40:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/session" for ::1 at 2020-01-17 16:59:15 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 318)
+
+
+Started POST "/login" for ::1 at 2020-01-17 16:59:20 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 119)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.2.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:40:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/session" for ::1 at 2020-01-17 17:00:27 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 318)
+
+
+Started POST "/login" for ::1 at 2020-01-17 17:00:45 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 119)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.2.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:40:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/session" for ::1 at 2020-01-17 17:01:39 -0500
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as */*
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 452)
+
+
+Started POST "/login" for ::1 at 2020-01-17 17:01:43 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 131)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.2.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:40:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/session" for ::1 at 2020-01-17 17:03:27 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 321)
+
+
+Started POST "/login" for ::1 at 2020-01-17 17:03:31 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"session"=>{"username"=>"sdfklj", "password"=>"[FILTERED]"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 119)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.2.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:40:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/session" for ::1 at 2020-01-17 17:04:31 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 316)
+
+
+Started POST "/login" for ::1 at 2020-01-17 17:04:35 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"session"=>{"username"=>"fsdf", "password"=>"[FILTERED]"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms | Allocations: 119)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.2.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:40:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-01-17 17:06:16 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jason/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jason/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.0ms | Allocations: 315)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 1590)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-01-17 17:06:17 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/session" for ::1 at 2020-01-17 17:06:29 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 318)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:07:20 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 313)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:07:28 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 313)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:07:53 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 317)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:07:56 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 316)
+
+
+Started POST "/login" for ::1 at 2020-01-17 17:08:05 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"username"=>"Jason", "password"=>"[FILTERED]", "session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+actionpack (6.0.2.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.2.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+rack (2.1.1) lib/rack/session/abstract/id.rb:277:in `context'
+rack (2.1.1) lib/rack/session/abstract/id.rb:271:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+rack (2.1.1) lib/rack/etag.rb:27:in `call'
+rack (2.1.1) lib/rack/conditional_get.rb:40:in `call'
+rack (2.1.1) lib/rack/head.rb:14:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/session" for ::1 at 2020-01-17 17:10:03 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 326)
+
+
+Started POST "/login" for ::1 at 2020-01-17 17:10:12 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"username"=>"Jason", "password"=>"[FILTERED]", "session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:14:in `create'
+Started GET "/session" for ::1 at 2020-01-17 17:10:35 -0500
+Processing by SessionController#show as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:12:20 -0500
+Completed 200 OK in 140374ms (Views: 0.5ms | ActiveRecord: 5.7ms | Allocations: 32806)
+
+
+Processing by SessionController#show as */*
+Completed 200 OK in 8350ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 8382)
+
+
+Started POST "/login" for ::1 at 2020-01-17 17:12:48 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"username"=>"Jason", "password"=>"[FILTERED]", "session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:14:in `create'
+Started GET "/session" for ::1 at 2020-01-17 17:13:05 -0500
+Processing by SessionController#show as */*
+Started GET "/session" for ::1 at 2020-01-17 17:24:53 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 13367ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 8196)
+
+
+Started POST "/login" for ::1 at 2020-01-17 17:25:12 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"username"=>"Jason", "password"=>"[FILTERED]", "session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:14:in `create'
+Completed 200 OK in 12005ms (Views: 0.6ms | ActiveRecord: 1.0ms | Allocations: 10603)
+
+
+Completed 200 OK in 777870ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 33344)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:26:44 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 6513ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 18614)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:27:00 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 8673ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 81738)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:27:40 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 19799ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 7281)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:28:12 -0500
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 9292ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 18626)
+
+
+Started GET "/" for ::1 at 2020-01-17 17:29:03 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jason/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jason/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.1ms | Allocations: 315)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 1595)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:29:09 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 40415ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 20252)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:31:01 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 3013ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6720)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:33:43 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 2213ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 6709)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:33:55 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 3550ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6715)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:34:32 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 2271ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 6707)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:36:23 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 56024ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 14260)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:37:31 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 17426ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 83999)
+
+
+Started POST "/login" for ::1 at 2020-01-17 17:38:01 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"username"=>"Jason", "password"=>"[FILTERED]", "session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:14:in `create'
+Completed 200 OK in 30ms (Views: 0.4ms | ActiveRecord: 7.1ms | Allocations: 8870)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:38:09 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 21645ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 8235)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:39:51 -0500
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 109413ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 20523)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:49:01 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 215253ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 7236)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:52:59 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 5916ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 6545)
+
+
+Started POST "/login" for ::1 at 2020-01-17 17:53:13 -0500
+Processing by SessionController#create as JSON
+  Parameters: {"username"=>"Jason", "password"=>"[FILTERED]", "session"=>{"username"=>"Jason", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Jason"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:14:in `create'
+Completed 200 OK in 30ms (Views: 0.6ms | ActiveRecord: 6.9ms | Allocations: 8796)
+
+
+Started GET "/session" for ::1 at 2020-01-17 17:53:21 -0500
+Processing by SessionController#show as JSON
+  Parameters: {"session"=>{}}
+Completed 200 OK in 539746ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 8238)
+
+
